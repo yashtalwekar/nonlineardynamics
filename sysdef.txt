@@ -1,0 +1,6 @@
+duffing
+x y
+a b f v w
+0.5 1 0.42 -1 1
+y
+-a*y - v*x - b*x**3 + f*sin(w*t)
