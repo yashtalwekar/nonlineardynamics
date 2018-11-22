@@ -1,6 +1,10 @@
 # nonlineardynamics
 * Time evolution, bifurcation, etc for oscilllators described by nonlinear ODEs using Runge-Kutta order 4 (RK4) is used for time integration
 
+![](outputs/henon_bifurcation.png)
+
+*Bifurcation in Henon Map*
+
 ### Requirements
 * Python with NumPy, SymPy and matplotlib
 
@@ -27,6 +31,10 @@ Line 6: RHS of the second equation as above
 
 After the first four lines, there should be n lines for n equations.
 
+![](outputs/lorenz_attractor.png)
+
+*Lorenz Attractor*
+
 ### Example: Duffing Oscillator
 The duffing equation (symbols for parameters have been changed for simplicity of input):
 
@@ -52,7 +60,12 @@ The program can then be run from the terminal by running `python general.py sysd
 
 ### To-Dos
 * More systems to be addressed separately
-* Add other important features such as bifurcation analysis, frequency responses
+* Add other important features such as bifurcation analysis, frequency responses, Poincare sections
 * Time evolution animations
 * Aesthetically pleasing visual outputs
 * And more
+
+![](outputs/self-similar.png)
+
+*Self-similar structure in Henon Attractor*
+
