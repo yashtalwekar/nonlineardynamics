@@ -65,7 +65,7 @@ The program can then be run from the terminal by running `python general.py sysd
 * Aesthetically pleasing visual outputs
 * And more
 
-![](outputs/self-similar.png)
+![](outputs/self-similar.PNG)
 
 *Self-similar structure in Henon Attractor*
 
